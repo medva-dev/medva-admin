@@ -1,0 +1,23 @@
+body {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.message-row:hover,
+.message-row.active {
+	background-color: #d7e4ff;
+	transition: all 0.3s ease-in-out;
+}
+
+.events {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.events .ant-badge-status {
+	width: 100%;
+	overflow: hidden;
+	font-size: 12px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
